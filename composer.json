@@ -1,6 +1,6 @@
 {
     "name": "mabasic/maria",
-    "description": "It grabs images from folder and converts them to desired dimensions and thumbnails.",
+    "description": "It grabs images from folder and converts them to desired dimensions.",
     "license": "MIT",
     "authors": [
         {

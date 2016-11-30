@@ -5,7 +5,10 @@
 require __DIR__ . '/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
+use Mabasic\Maria\Commands\Fit;
 
-$app = new Application();
+$app = new Application("Maria", "0.1.0");
+
+$app->add(new Fit);
 
 $app->run();
