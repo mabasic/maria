@@ -1,0 +1,23 @@
+{
+    "name": "mabasic/maria",
+    "description": "It grabs images from folder and converts them to desired dimensions and thumbnails.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Bašić",
+            "email": "mario.basic@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mabasic\\Maria\\": "src"
+        }
+    },
+    "require": {
+        "intervention/image": "^2.3",
+        "symfony/console": "^3.2"
+    },
+    "bin": [
+        "maria"
+    ],
+}
